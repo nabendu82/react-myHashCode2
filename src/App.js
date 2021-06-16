@@ -2,8 +2,10 @@ import './App.css';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Counter from './components/Counter';
-import EventBind from './components/EventBind';
-
+// import EventBind from './components/EventBind';
+//import ParentComponent from './components/ParentComponent';
+//import UserGreeting from './components/UserGreeting';
+import DemoForm from './components/DemoForm';
 
 function App() {
   return (
@@ -15,7 +17,13 @@ function App() {
       <Welcome name="React Native"/>
       <Welcome name="Java"><button>Click</button></Welcome> */}
       {/* <Counter /> */}
-      <EventBind />
+      {/* <EventBind /> */}
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting /> */}
+      {/* <PersonList /> */}
+      {/* <StyleSheets /> */}
+      {/* <Modules /> */}
+      <DemoForm />
     </div>
   );
 }
