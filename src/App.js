@@ -5,7 +5,9 @@ import './App.css';
 // import EventBind from './components/EventBind';
 //import ParentComponent from './components/ParentComponent';
 //import UserGreeting from './components/UserGreeting';
-import DemoForm from './components/DemoForm';
+// import GrandParent from './components/GrandParent';
+// import { UserProvider } from './components/userContext';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
@@ -23,7 +25,14 @@ function App() {
       {/* <PersonList /> */}
       {/* <StyleSheets /> */}
       {/* <Modules /> */}
-      <DemoForm />
+      {/* <DemoForm /> */}
+      {/* <ParentLifecycle /> */}
+      {/* <RefsDemo /> */}
+      {/* <UserProvider value="Nabendu">
+        <GrandParent />
+      </UserProvider> */}
+      {/* <PostList /> */}
+      <PostForm />
     </div>
   );
 }
